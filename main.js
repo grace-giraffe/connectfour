@@ -22,4 +22,6 @@ var currentPlayer= "red";
 for(let i=0; i<buttons.length;i++){
     buttons[i].onclick=handleClick
 }
-
+if(currentPlayer=checker*4){
+    alert("Current Player Wins!")
+}
